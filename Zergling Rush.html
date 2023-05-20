@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zergling Rush</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Zergling Rush</h1>
+
+  <!-- Player Registration -->
+  <section id="registrationScreen">
+    <h2>Player Registration</h2>
+    <form id="registrationForm">
+      <label for="playerName">Player1 Name:</label>
+      <input type="text" id="playerName1" required><br><br>
+      <button onclick="registerPlayer1()" type="submit">Register Player 1
+      </button>
+      <br>
+      <br>
+      <label for="playerName">Player2 Name:</label>
+      <input type="text" id="playerName2" required><br><br>
+      <button onclick="registerPlayer2()" type="submit">Register Player 2
+      </button>
+
+      <br>
+      <br>
+      <button id="btnContinue" disabled onclick="registerPlayer()">Continue -->
+       </button> 
+    </form>
+  </section>
+ 
+  <!-- Individual Screens -->
+  <section id="playerScreens" style="display: none;"></section>
+  
+  <script src="script.js"></script>
+  <!-- <script src="playerScreens.js"></script> -->
+
+</body>
+</html>

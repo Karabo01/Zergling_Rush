@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .players {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .letter {
+    margin-top: 20px;
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .stopwatch {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #letter {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #stopwatch {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
